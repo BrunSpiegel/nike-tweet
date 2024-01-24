@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+}
+
+.tweet-box {
+  width: 591px;
+  padding: 18px 0 19px 17px;
+  margin-top: 91px;
+  display: flex;
+  border: 1px solid #DADDDF;
+}
+
+.tweet-content {
+  width: 410px;
+  margin-left: 12px;
+}
+
+.nike-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+}
+
+.tweet-top {
+  color: #536471;
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+.tweet-name {
+  color: #0F1419;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tweet-verify {
+  margin: 0 6px 0 3px;
+}
+
+.tweet-dot {
+  background-color: #536471;
+  width: 3.5px;
+  height: 3.5px;
+  margin: 0 5px;
+  border-radius: 50px;
+}
+
+.tweet-text {
+  margin-bottom: 22px;
+  width: 450px;
+  font-size: 15px;
+}
+
+.tweet-phrase {
+  margin-bottom: 16px;
+}
+
+.tweet-bottom {
+  color: #536471;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-size: 13px;
+}
+
+.align-text-icons {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-icon-bottom {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+}
+
+.tweet-icon-bottom:last-child {
+  width: 13px;
+  margin: 0;
+}
